@@ -64,7 +64,9 @@ const Footer = () => {
         </FooterContact>
         <FooterContact>
           <ContactHeader>Let's grab a coffee.</ContactHeader>
-          <ContactLink href="tel:9710543248210">
+          <ContactLink href="mailto:rinurahim018@gmail.com "
+          target="_blank"
+          rel="noopener noreferrer">
             rinurahim018@gmail.com
           </ContactLink>
         </FooterContact>

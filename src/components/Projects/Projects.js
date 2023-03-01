@@ -9,11 +9,11 @@ const Projects = () => {
   return (
     <StyledProjects id="projects">
       <SectionHeading>
-        <SectionTitle number="01">Projects</SectionTitle>
+        <SectionTitle >Projects</SectionTitle>
       </SectionHeading>
       <StyledParagraph dark="true" textAlign="center">
         <StyledLink
-          href="https://github.com/monciego"
+          href="https://github.com/rrinu"
           target="_blank"
           rel="noopener noreferrer"
         >

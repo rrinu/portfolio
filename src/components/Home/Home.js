@@ -70,7 +70,7 @@ const Home = () => {
             <GoMarkGithub />
           </Social>
           <Social
-            href="www.linkedin.com/in/rinu-rahim"
+            href="https://www.linkedin.com/in/rinu-rahim"
             target="_blank"
             rel="noopener noreferrer"
           >

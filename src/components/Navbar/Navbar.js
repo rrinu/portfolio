@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import {
-  Line,
-  Menu,
   NavList,
   NavLogo,
   NavMenuList,
@@ -11,7 +9,6 @@ import {
 } from "../styles/Navbar.styled";
 import logo from "../../assets/logo.png";
 import { animateScroll as scroll } from "react-scroll";
-import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
   const [stickyNav, setStickyNav] = useState(false);
@@ -98,14 +95,6 @@ const Navbar = () => {
           </span>
         </span>
       </StyledCTA>
-
-      <Menu onClick={toggle}>
-        <Line width="1.5rem" />
-        <Line />
-        <Line width="1.5rem" ml="0.5rem" />
-      </Menu>
-
-      <MobileMenu isOpen={isOpen} toggle={toggle}></MobileMenu>
     </StyledNavbar>
   );
 };

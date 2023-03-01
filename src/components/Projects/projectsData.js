@@ -18,8 +18,8 @@ export const projectData = [
     id: 2,
     image: project2Laptop,
     transitionImage: project2Mobile,
-    title: "passingthoughts",
-    codeLink: "https://github.com/rrinu/passingThoughts/tree/master",
-    liveLink: "https://63edced83d995a494be6f412--passingthoughts-app.netlify.app/",
+    title: "calculator",
+    codeLink: "https://github.com/rrinu/calculator/tree/master",
+    liveLink: "https://63fe432023f85f137a07df29--rrcalculator.netlify.app/",
   }
   ];
