@@ -28,12 +28,16 @@ const About = () => {
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
-            A passionate and driven front end developer based in India.
+            A passionate and driven front end developer based in India currently residing in UAE.I have a 2+ years of background in the It Industry working in both front end and backend. 
           </StyledParagraph>
           <StyledParagraph>
-            I love to design and create responsive websites or web apps from
-            scratch. The technologies, tools and languages I am using to build
-            my projects are HTML, CSS, JavaScript, REACT JS,Git and GitHubcand VS Code.
+            I love to design and create responsive websites and web applications from
+            scratch. I'm dedicated to creating websites that captivate and engage users with stunning UI designs and seamless functionality. 
+            I have been continuously enriching my skills by learning other front-end technologies and frameworks.The technologies, tools and languages I am using to build
+            my projects are HTML, CSS, JavaScript, REACT JS,Bootstrap,Git,GitHub and VS Code.
+          </StyledParagraph>
+          <StyledParagraph>
+          Please feel free to connect with me to discuss potential collaborations or job opportunities.
           </StyledParagraph>
           <Resume>
             <ResumeLink
