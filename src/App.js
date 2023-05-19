@@ -17,8 +17,8 @@ function App() {
           <GlobalStyles />
           <Navbar />
           <Home />
-          <Projects />
           <About />
+          <Projects />
           <Technologies />
           <Footer />
         </>
