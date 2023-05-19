@@ -1,5 +1,6 @@
 import React from "react";
 import { StyledButton } from "../styles/Button.styled";
+import TextChangingComponent from "./TextChangingComponent";
 import {
   Name,
   StyledButtonsContainer,
@@ -10,8 +11,7 @@ import {
   Socials,
 } from "../styles/Home.styled";
 import "./style.css";
-import projectIcon from "../../assets/icons/project-icon.svg";
-import aboutIcon from "../../assets/icons/about-me.svg";
+import {ChevronDown} from 'react-bootstrap-icons';
 import { IconContext } from "react-icons";
 import { GrLinkedinOption } from "react-icons/gr";
 import { GoMarkGithub } from "react-icons/go";
@@ -21,24 +21,11 @@ const Home = () => {
   return (
     <IconContext.Provider value={{ size: "1rem" }}>
       <StyledHome id="home">
-        <Name>Rinu Rahim</Name>
-        <Title>Front-end Developer</Title>
+        <Name>Hey, I'm Rinu</Name>
+        <Title>I design and build user interfaces</Title>
+        <TextChangingComponent />
         <StyledButtonsContainer>
           <StyledButton
-            icon={projectIcon}
-            to="projects"
-            smooth={true}
-            duration={0}
-            delay={0}
-            spy={true}
-            spyThrottle={0}
-            exact="true"
-            offset={-50}
-          >
-            <span>Projects</span>
-          </StyledButton>
-          <StyledButton
-            icon={aboutIcon}
             secondary="true"
             content="B"
             to="about"
@@ -50,8 +37,11 @@ const Home = () => {
             exact="true"
             offset={-50}
           >
-            <span>About me</span>
+            <span>Learn more about me
+            <ChevronDown style={{fontSize: '1.8rem' , paddingTop:'1rem', paddingLeft:'1rem',fontWeight:"bolder"}} />
+            </span>
           </StyledButton>
+          
         </StyledButtonsContainer>
         <Line />
         <Socials>
@@ -70,7 +60,7 @@ const Home = () => {
             <GoMarkGithub />
           </Social>
           <Social
-            href="https://www.linkedin.com/in/rinu-rahim"
+            href="www.linkedin.com/in/rinu-rahim"
             target="_blank"
             rel="noopener noreferrer"
           >
