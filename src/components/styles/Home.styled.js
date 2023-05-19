@@ -30,7 +30,7 @@ export const Name = styled.h2`
 `;
 
 export const Title = styled.h1`
-  font-size: 4.100rem;
+  font-size: 2.100rem;
   font-weight: 700;
   margin: 0.5rem 0 1rem 0;
   color: darkGreen;
