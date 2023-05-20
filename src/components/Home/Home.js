@@ -11,7 +11,7 @@ import {
   Socials,
 } from "../styles/Home.styled";
 import "./style.css";
-import {ChevronDown} from 'react-bootstrap-icons';
+import { FaArrowCircleDown } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import { GrLinkedinOption } from "react-icons/gr";
 import { GoMarkGithub } from "react-icons/go";
@@ -38,7 +38,7 @@ const Home = () => {
             offset={-50}
           >
             <span>Learn more about me
-            <ChevronDown style={{fontSize: '1.8rem' , paddingTop:'1rem', paddingLeft:'1rem',fontWeight:"bolder"}} />
+            <FaArrowCircleDown style={{ fontSize:'2rem',paddingTop:'.5rem', paddingLeft:'.5rem'}} />
             </span>
           </StyledButton>
           
