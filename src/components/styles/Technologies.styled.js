@@ -15,12 +15,12 @@ export const TechnologiesIcons = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 2.5rem;
   margin-top: 3rem;
 `;
 
 export const TechnologyIcon = styled.img`
-  height: 32px;
+  height: 30%;
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     height: 24px;

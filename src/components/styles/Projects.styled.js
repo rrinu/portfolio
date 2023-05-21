@@ -43,7 +43,7 @@ export const ProjectTransitionImage = styled.img`
   width: 100%;
   height: 100%;
   opacity: 0;
-  object-fit: cover;
+  object-fit: fill;
   position: absolute;
   transition: 0.3s ease;
 `;
@@ -115,7 +115,9 @@ export const ProjectCard = styled.article`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 5px;
+  border-radius: 20px;
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
   position: relative;
   overflow: hidden;
 
