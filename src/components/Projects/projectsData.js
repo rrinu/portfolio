@@ -2,7 +2,11 @@ import {
   project1Laptop,
   project1Mobile,
   project2Laptop,
-  project2Mobile
+  project2Mobile,
+  project3Laptop,
+  project3Mobile,
+  project4Laptop,
+  project4Mobile
 } from "./projectImages";
 
 export const projectData = [
@@ -21,5 +25,21 @@ export const projectData = [
     title: "calculator",
     codeLink: "https://github.com/rrinu/calculator/tree/master",
     liveLink: "https://63fe432023f85f137a07df29--rrcalculator.netlify.app/",
+  },
+  {
+    id: 3,
+    image: project3Laptop,
+    transitionImage: project3Mobile,
+    title: "StoryTellers",
+    codeLink: "https://github.com/rrinu/StoryTeller_weddingPlanner",
+    liveLink: "https://storytellers-weddingplanner.netlify.app/",
+  },
+  {
+    id: 4,
+    image: project4Laptop,
+    transitionImage: project4Mobile,
+    title: "PassingThoughts",
+    codeLink: "https://github.com/rrinu/passingThoughts",
+    liveLink: "https://passingthoughts-app.netlify.app/",
   }
   ];

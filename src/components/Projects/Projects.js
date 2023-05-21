@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <StyledProjects id="projects">
       <SectionHeading>
-        <SectionTitle >Projects</SectionTitle>
+        <SectionTitle number="02">Projects</SectionTitle>
       </SectionHeading>
       <StyledParagraph dark="true" textAlign="center">
         <StyledLink
