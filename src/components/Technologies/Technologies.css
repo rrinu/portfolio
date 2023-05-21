@@ -1,0 +1,7 @@
+.zoom-in-effect {
+    transition: transform 0.3s ease;
+  }
+  
+  .zoom-in-effect:hover {
+    transform: scale(3);
+  }

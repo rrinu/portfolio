@@ -4,10 +4,10 @@ import javascript from "../../assets/technologies/javascript.svg";
 import reactjs from "../../assets/technologies/react.svg";
 import styledComponents from "../../assets/technologies/styled-components.svg";
 import npm from "../../assets/technologies/npm.svg";
-import git from "../../assets/technologies/git.svg";
 import github from "../../assets/technologies/github.svg";
-
-
+import bootstrap from "../../assets/technologies/bootstrap.svg";
+import python from "../../assets/technologies/python-3.svg";
+import msSql from "../../assets/technologies/ms-Sql.svg";
 import vscode from "../../assets/technologies/visual-studio-code.svg";
 
 export const iconsData = [
@@ -32,6 +32,11 @@ export const iconsData = [
     name: "React JS",
   },
   {
+    id:9,
+    icon: bootstrap,
+    name: "Bootstrap",
+  },
+  {
     id: 5,
     icon: styledComponents,
     name: "Styled Components",
@@ -43,9 +48,14 @@ export const iconsData = [
     name: "Node Package Manager",
   },
   {
-    id: 7,
-    icon: git,
-    name: "Git",
+    id:9,
+    icon: python,
+    name: "Python",
+  },
+  {
+    id: 8,
+    icon: msSql,
+    name: "MSSQL",
   },
   {
     id: 8,
