@@ -33,13 +33,5 @@ export const projectData = [
     title: "StoryTellers",
     codeLink: "https://github.com/rrinu/StoryTeller_weddingPlanner",
     liveLink: "https://storytellers-weddingplanner.netlify.app/",
-  },
-  {
-    id: 4,
-    image: project4Laptop,
-    transitionImage: project4Mobile,
-    title: "PassingThoughts",
-    codeLink: "https://github.com/rrinu/passingThoughts",
-    liveLink: "https://passingthoughts-app.netlify.app/",
   }
   ];
