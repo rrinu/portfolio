@@ -116,11 +116,8 @@ export const ProjectCard = styled.article`
   align-items: center;
   flex-direction: column;
   border-radius: 20px;
-  border-top-left-radius: 30%;
-  border-bottom-right-radius: 30%;
   position: relative;
   overflow: hidden;
-
   &::after {
     content: "";
     position: absolute;
@@ -148,5 +145,12 @@ export const ProjectCard = styled.article`
   }
   @media all and (max-width: ${({ theme }) => theme.breakpoints.md}) {
     width: 100%;
+    &:hover ${ProjectTransitionImage} {
+    opacity: 0;
+  }
+ ${ProjectImage} {
+  object-fit: cover;
+} 
+
   }
 `;

@@ -14,9 +14,9 @@ export const projectData = [
     id: 1,
     image: project1Laptop,
     transitionImage: project1Mobile,
-    title: "mymusic",
-    codeLink: "https://github.com/rrinu/mymusic",
-    liveLink:"https://mymmusic.netlify.app/"
+    title: "Amal Ansari Legal Consultancy",
+    codeLink: "https://github.com/rrinu/AALC",
+    liveLink:"https://aalc.netlify.app/"
   },
   {
     id: 2,
