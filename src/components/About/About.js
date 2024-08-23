@@ -34,7 +34,7 @@ const About = () => {
             I love to design and create responsive websites and web applications from
             scratch. I'm dedicated to creating websites that captivate and engage users with stunning UI designs and seamless functionality. 
             I have been continuously enriching my skills by learning other front-end technologies and frameworks.The technologies, tools and languages I am using to build
-            my projects are HTML, CSS, JavaScript, REACT JS,Bootstrap,Git,GitHub and VS Code.
+            my projects are HTML, CSS, JavaScript, REACT JS,Redux,Bootstrap,Git,GitHub and VS Code.
           </StyledParagraph>
           <StyledParagraph>
           Please feel free to connect with me to discuss potential collaborations or job opportunities.
