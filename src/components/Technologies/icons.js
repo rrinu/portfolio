@@ -9,6 +9,7 @@ import bootstrap from "../../assets/technologies/bootstrap.svg";
 import python from "../../assets/technologies/python-3.svg";
 import msSql from "../../assets/technologies/ms-Sql.svg";
 import vscode from "../../assets/technologies/visual-studio-code.svg";
+import rest from "../../assets/technologies/rest.svg";
 
 export const iconsData = [
   {
@@ -44,8 +45,8 @@ export const iconsData = [
 
   {
     id: 6,
-    icon: npm,
-    name: "Node Package Manager",
+    icon: rest,
+    name: "Rest API",
   },
   {
     id:9,

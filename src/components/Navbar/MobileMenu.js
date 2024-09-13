@@ -29,9 +29,6 @@ const MobileMenu = ({ isOpen, toggle }) => {
         <MobileMenuLink to="about" onClick={toggle}>
           About
         </MobileMenuLink>
-        <MobileMenuLink to="playground" onClick={toggle}>
-          Playground
-        </MobileMenuLink>
         <MobileButton
           href="mailto:rinurahim018@gmail.com "
           target="_blank"

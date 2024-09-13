@@ -28,7 +28,7 @@ export const ProjectsContainer = styled.div`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 1.25rem;
+  gap: 2.5rem;
   margin-top: 3rem;
 `;
 
@@ -109,8 +109,8 @@ export const ProjectLiveLink = styled.a`
 
 export const ProjectCard = styled.article`
   background: #fff;
-  width: 41rem;
-  height: 24rem;
+  width: 30rem;
+  height: 18rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,7 +137,7 @@ export const ProjectCard = styled.article`
   }
 
   &:hover ${ProjectTransitionImage} {
-    opacity: 1;
+    opacity: 0;
   }
 
   @media all and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
